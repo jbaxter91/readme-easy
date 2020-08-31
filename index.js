@@ -21,7 +21,7 @@ const questions = [
     new Question("input","Enter contribution guidelines:","guidelines"),
     new Question("input","Enter test instructions: ","instructions"),
     new Question("input","Enter github username:","username"),
-    new Question("input","Enter deployed link:","deployed"),
+    new Question("input","Enter deployed link(optional, leave blank):","deployed"),
     new Question("input","Enter email address:","email"),
     new Question("list","Select a licence:","license",["MIT", "GNU General Public v3.0", "ISC", "Apache 2.0" ]),
 ];
@@ -30,8 +30,8 @@ const questions = [
 function writeToFile(fileName, data) 
 {
     // Make sure folder exists first
-    if (!FS.existsSync('./output')) {
-        FS.mkdirSync('./output')
+    if (!FS.existsSync("./output")) {
+        FS.mkdirSync("./output")
     }
 
     // Write to file, console if there is an error
@@ -68,7 +68,7 @@ function init()
             }
 
             // Data should now be ready to send off to write to file
-            writeToFile('output/README.md', answers)
+            writeToFile("output/README.md", answers)
 
             console.log(answers);
         });
