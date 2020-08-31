@@ -15,16 +15,20 @@ Github readme file done easy!  This node application will help you generate a qu
 
 ## Installation
 ![install](./assets/images/readme-easy_instal-inquirer.png)
+
 Just clone the repository, install inquirer, and run the application in node
 
 ## Usage
 ![start up](./assets/images/readme-easy_startup.png)
+
 Run node index.js and follow the on screen prompts to create your readme file
 
 ![full use](./assets/images/readme-easy_full-log.png)
+
 Follow all the instructions like, and i will generate your new amazing readme
 
 ![result](./assets/images/readme-easy_output.png)
+
 Your finished readme will be placed inside a folder called "output"
 
 ## Contributions
