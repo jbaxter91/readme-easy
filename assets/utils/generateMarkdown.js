@@ -9,10 +9,10 @@ ${data.description}\n
 * [Usage](#usage)
 * [Contributions](#contributions)
 * [Testing](#testing)
-* [Credits](#credits)`
+* [Credits](#credits)\n`
 if(data.deployed)
 {
-  markdown += `* [Deployed Link](#Deployed)`
+  markdown += `* [Deployed Link](#Deployed)\n`
 }
 markdown +=
 `* [License](#license)\n
@@ -25,7 +25,7 @@ ${data.guidelines}\n
 ## Testing
 ${data.instructions}\n
 ## Credits
-GitHub: https://www.github.com/${data.username}
+GitHub: https://www.github.com/${data.username}\n
 Email: ${data.email}\n`
 
 if(data.deployed)
