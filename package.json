@@ -1,0 +1,15 @@
+{
+  "name": "readme-easy",
+  "version": "1.0.0",
+  "description": "Readme Easy is a node script that will generate a quick readme from scratch based on user input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Baxter",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^6.5.2"
+  }
+}
