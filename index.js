@@ -1,5 +1,5 @@
 // =========== Const Section ===========
-const INQUIRER = require("INQUIRER");
+const INQUIRER = require("inquirer");
 const FS = require("fs");
 const MARKDOWN = require("./assets/utils/generateMarkdown")
 // ========== END Const ==================
